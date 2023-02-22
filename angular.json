@@ -17,6 +17,9 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "preserveSymlinks": true,
+            "sourceMap": true,
+            "allowedCommonJsDependencies": ["mapbox-gl"],
             "outputPath": "dist/mapbox-gl-library",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -89,6 +92,37 @@
             "assets": ["src/favicon.ico", "src/assets"],
             "styles": ["src/styles.scss"],
             "scripts": []
+          }
+        }
+      }
+    },
+    "map-wrap": {
+      "projectType": "library",
+      "root": "projects/map-wrap",
+      "sourceRoot": "projects/map-wrap/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/map-wrap/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/map-wrap/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/map-wrap/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/map-wrap/src/test.ts",
+            "tsConfig": "projects/map-wrap/tsconfig.spec.json",
+            "karmaConfig": "projects/map-wrap/karma.conf.js"
           }
         }
       }

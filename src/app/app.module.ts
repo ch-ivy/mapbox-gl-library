@@ -5,21 +5,21 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { StoreModule } from '@ngrx/store';
 import { reducers, metaReducers } from './reducers';
-import { MapComponent } from './map/map.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { MapWrapModule } from 'map-wrap';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    MapComponent
-  ],
+  declarations: [AppComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
     StoreModule.forRoot(reducers, {
-      metaReducers
-    })
+      metaReducers,
+    }),
+    NgbModule,
+    MapWrapModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

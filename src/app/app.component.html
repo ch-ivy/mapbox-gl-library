@@ -1,1 +1,8 @@
-<app-map></app-map>
+<div class="map-contaner">
+  <map-wrap
+    [access_token]="token"
+    [style]="mapOptions.style"
+    [center]="center"
+    [zoom]="mapOptions.zoom"
+  ></map-wrap>
+</div>
