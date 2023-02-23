@@ -21,7 +21,7 @@ import { MapService, SetupLayer } from '../map/map.service';
 import { LayerEvents } from '../map/map.types';
 
 @Component({
-  selector: 'mgl-layer',
+  selector: 'map-layer',
   template: '',
 })
 export class LayerComponent

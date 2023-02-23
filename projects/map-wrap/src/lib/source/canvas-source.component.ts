@@ -13,7 +13,7 @@ import { filter } from 'rxjs/operators';
 import { MapService } from '../map/map.service';
 
 @Component({
-  selector: 'mgl-canvas-source',
+  selector: 'map-canvas-source',
   template: '',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })

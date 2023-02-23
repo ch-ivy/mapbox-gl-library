@@ -1,8 +1,97 @@
-<div class="map-contaner">
-  <map-wrap
-    [access_token]="token"
-    [style]="mapOptions.style"
-    [center]="center"
-    [zoom]="mapOptions.zoom"
-  ></map-wrap>
-</div>
+<ng-container *ngIf="!(isLoading | async)">
+  <div class="d-flex flex-wrap my-5 justify-content-center">
+    <button
+      type="button"
+      (click)="showAllPins(); marker_state = null"
+      class="btn btn-primary mx-2 my-1"
+    >
+      Load Pins / Zoom out
+    </button>
+    <button
+      type="button"
+      class="btn btn-primary mx-2 my-1"
+      (click)="toggleMarkerState('zoom', 'Select marker position of choice')"
+    >
+      Zoom to a Pin
+    </button>
+    <button
+      type="button"
+      class="btn btn-primary mx-2 my-1"
+      (click)="toggleMarkerState('replace', '')"
+    >
+      Replace a Pin's Image
+    </button>
+
+    <button
+      type="button"
+      class="btn btn-primary mx-2 my-1"
+      (click)="toggleMarkerState('popup', 'Select marker position of choice')"
+    >
+      Show a marker's location info in a popup
+    </button>
+    <button
+      (click)="toggleMarkerState('addMarker', 'Select a position of choice')"
+      type="button"
+      class="btn btn-primary mx-2 my-1"
+    >
+      Add Marker
+    </button>
+  </div>
+
+  <div *ngIf="marker_state == 'replace'">
+    <h4 class="col-12 text-center">Select the icon you would like to use</h4>
+    <div class="d-flex flex-wrap justify-content-center my-3">
+      <ng-container *ngFor="let item of [1, 2, 3, 4, 5, 6, 7, 8]">
+        <div
+          [class.selected]="selected_pic == item"
+          (click)="selectMarkerImage(item)"
+          class="img-icon mx-2 my-1"
+        >
+          <img src="/assets/pin{{ item }}.svg" alt="markers" />
+        </div>
+      </ng-container>
+    </div>
+  </div>
+  <div
+    *ngIf="message"
+    class="alert my-3 py-2 text-center col-md-8 justify-content-center mx-auto alert-primary alert-dismissible fade show"
+    role="alert"
+  >
+    <h4>{{ message }}</h4>
+  </div>
+
+  <div class="map-container">
+    <map-wrap
+      [style]="style"
+      [center]="center"
+      [zoom]="zoom"
+      (mapCreate)="setMap($event)"
+      (mapClick)="addMarker($event)"
+    >
+      <map-popup
+        *ngIf="marker_state == 'popup' && selected_marker"
+        [lngLat]="selected_marker.center"
+        [focusAfterOpen]="true"
+        [closeButton]="true"
+        [closeOnClick]="false"
+        className="card px-1"
+      >
+        <img [src]="selected_record?.photo" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">{{ selected_record?.name }}</h5>
+          <p class="card-text">{{ selected_record?.streetAddress }}</p>
+        </div>
+      </map-popup>
+      <ng-container *ngFor="let item of markers | async; index as i">
+        <map-marker [lngLat]="item?.center">
+          <div class="marker" (click)="markerActions(i)">
+            <img [src]="item?.img_link" alt="" class="img-fluid" />
+          </div>
+        </map-marker>
+      </ng-container>
+      <map-control mapNavigation></map-control>
+      <map-control mapGeolocate></map-control>
+      <map-control mapFullscreen></map-control>
+    </map-wrap>
+  </div>
+</ng-container>

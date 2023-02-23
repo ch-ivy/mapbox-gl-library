@@ -1,0 +1,983 @@
+{
+  "agentInfo": {
+    "accountID": 43527,
+    "firstname": "Hienjie",
+    "lastname": "Test 2",
+    "company": "Test Company Name",
+    "splashMessage": "",
+    "customHeader": ""
+  },
+  "records": [
+    {
+      "listID": 7892483,
+      "order": 0,
+      "propertyID": 811492,
+      "name": "Landmark at Crowley",
+      "streetAddress": "305 W Farm to Market 1187",
+      "city": "Crowley",
+      "state": "TX",
+      "pets": true,
+      "washerDry": "FULLSIZE_FURNISHED",
+      "photo": "https://d3d5tet3r0xd5y.cloudfront.net/photos/811492/micros/1.jpg",
+      "favorite": false,
+      "highestSentCommissions": 150,
+      "onsiteManager": null,
+      "management": null,
+      "proximity": 0.0,
+      "section8": false,
+      "seniorHousing": false,
+      "studentHousting": false,
+      "floorplans": [
+        { "bedrooms": 1, "type": "1 Bed", "price": 1440.0 },
+        { "bedrooms": 2, "type": "2 Bed", "price": 1845.0 },
+        { "bedrooms": 3, "type": "3 Bed", "price": 2300.0 }
+      ],
+      "highValueAmenities": [
+        "Black/Stainless Appliances",
+        "Dog/Walk Park",
+        "Fitness Center",
+        "ValletTrash"
+      ],
+      "paidUtilities": [],
+      "geocode": {
+        "Longitude": "-97.393521",
+        "Latitude": "32.567122",
+        "Percision": "",
+        "IsValid": true
+      }
+    },
+    {
+      "listID": 7892483,
+      "order": 0,
+      "propertyID": 809782,
+      "name": "Alta Landing",
+      "streetAddress": "3100 Joplin Rd",
+      "city": "Kennedale",
+      "state": "TX",
+      "pets": true,
+      "washerDry": "FULLSIZE_FURNISHED",
+      "photo": "https://d3d5tet3r0xd5y.cloudfront.net/photos/809782/micros/1.jpg",
+      "favorite": false,
+      "highestSentCommissions": 150,
+      "onsiteManager": null,
+      "management": null,
+      "proximity": 0.0,
+      "section8": false,
+      "seniorHousing": false,
+      "studentHousting": false,
+      "floorplans": [
+        { "bedrooms": 0, "type": "Eff", "price": 1485.0 },
+        { "bedrooms": 1, "type": "1 Bed", "price": 1495.0 },
+        { "bedrooms": 2, "type": "2 Bed", "price": 1895.0 },
+        { "bedrooms": 3, "type": "3 Bed", "price": 2905.0 }
+      ],
+      "highValueAmenities": [
+        "Black/Stainless Appliances",
+        "Wood Floors",
+        "Granite Countertops",
+        "Dog/Walk Park",
+        "Fitness Center",
+        "ValletTrash"
+      ],
+      "paidUtilities": [],
+      "geocode": {
+        "Longitude": "-97.189044",
+        "Latitude": "32.64613",
+        "Percision": "RANGE_INTERPOLATED",
+        "IsValid": true
+      }
+    },
+    {
+      "listID": 7892483,
+      "order": 0,
+      "propertyID": 809587,
+      "name": "East Quarter Residences",
+      "streetAddress": "315 S Cesar Chavez Blvd",
+      "city": "Dallas",
+      "state": "TX",
+      "pets": true,
+      "washerDry": "STACKABLE_FURNISHED",
+      "photo": "https://d3d5tet3r0xd5y.cloudfront.net/photos/809587/micros/001.jpeg",
+      "favorite": false,
+      "highestSentCommissions": 150,
+      "onsiteManager": null,
+      "management": null,
+      "proximity": 0.0,
+      "section8": false,
+      "seniorHousing": false,
+      "studentHousting": false,
+      "floorplans": [
+        { "bedrooms": 0, "type": "Eff", "price": 2180.0 },
+        { "bedrooms": 1, "type": "1 Bed", "price": 2609.0 },
+        { "bedrooms": 2, "type": "2 Bed", "price": 3594.0 }
+      ],
+      "highValueAmenities": [
+        "Black/Stainless Appliances",
+        "Dog/Walk Park",
+        "Fitness Center"
+      ],
+      "paidUtilities": [],
+      "geocode": {
+        "Longitude": "-96.790852",
+        "Latitude": "32.780843",
+        "Percision": "ROOFTOP",
+        "IsValid": true
+      }
+    },
+    {
+      "listID": 7892483,
+      "order": 0,
+      "propertyID": 809571,
+      "name": "Avilla Grove",
+      "streetAddress": "360 West Frontier Pkwy",
+      "city": "Prosper",
+      "state": "TX",
+      "pets": true,
+      "washerDry": "FULLSIZE_FURNISHED",
+      "photo": "https://d3d5tet3r0xd5y.cloudfront.net/photos/809571/micros/.3420 s dallas pkwy-avilla parkway-11.jpg",
+      "favorite": true,
+      "highestSentCommissions": 150,
+      "onsiteManager": null,
+      "management": null,
+      "proximity": 0.0,
+      "section8": false,
+      "seniorHousing": false,
+      "studentHousting": false,
+      "floorplans": [
+        { "bedrooms": 1, "type": "1 Bed", "price": 1578.0 },
+        { "bedrooms": 2, "type": "2 Bed", "price": 2105.0 },
+        { "bedrooms": 3, "type": "3 Bed", "price": 2372.0 }
+      ],
+      "highValueAmenities": [
+        "Black/Stainless Appliances",
+        "Wood Floors",
+        "Granite Countertops",
+        "Dog/Walk Park",
+        "ValletTrash"
+      ],
+      "paidUtilities": [],
+      "geocode": {
+        "Longitude": "-96.787777",
+        "Latitude": "33.262746",
+        "Percision": "ROOFTOP",
+        "IsValid": true
+      }
+    },
+    {
+      "listID": 7892483,
+      "order": 0,
+      "propertyID": 299523,
+      "name": "Mezzo",
+      "streetAddress": "703 FM 1385",
+      "city": "Aubrey",
+      "state": "TX",
+      "pets": true,
+      "washerDry": "FULLSIZE_FURNISHED",
+      "photo": "https://d3d5tet3r0xd5y.cloudfront.net/photos/299523/micros/pips01.jpg",
+      "favorite": false,
+      "highestSentCommissions": 150,
+      "onsiteManager": null,
+      "management": null,
+      "proximity": 0.0,
+      "section8": false,
+      "seniorHousing": false,
+      "studentHousting": false,
+      "floorplans": [
+        { "bedrooms": 1, "type": "1 Bed", "price": 1350.0 },
+        { "bedrooms": 2, "type": "2 Bed", "price": 1820.0 },
+        { "bedrooms": 3, "type": "3 Bed", "price": 2946.0 }
+      ],
+      "highValueAmenities": [
+        "Black/Stainless Appliances",
+        "Granite Countertops",
+        "Dog/Walk Park",
+        "Fitness Center",
+        "ValletTrash"
+      ],
+      "paidUtilities": [],
+      "geocode": {
+        "Longitude": "-96.898004",
+        "Latitude": "33.219874",
+        "Percision": "RANGE_INTERPOLATED",
+        "IsValid": true
+      }
+    },
+    {
+      "listID": 7892483,
+      "order": 0,
+      "propertyID": 290133,
+      "name": "Novel Turtle Creek",
+      "streetAddress": "4251 Irving Ave",
+      "city": "Dallas",
+      "state": "TX",
+      "pets": true,
+      "washerDry": "FULLSIZE_FURNISHED",
+      "photo": "https://d3d5tet3r0xd5y.cloudfront.net/photos/290133/micros/NTC.jpg",
+      "favorite": false,
+      "highestSentCommissions": 150,
+      "onsiteManager": null,
+      "management": null,
+      "proximity": 0.0,
+      "section8": false,
+      "seniorHousing": false,
+      "studentHousting": false,
+      "floorplans": [
+        { "bedrooms": 1, "type": "1 Bed", "price": 2925.0 },
+        { "bedrooms": 2, "type": "2 Bed", "price": 5275.0 },
+        { "bedrooms": 3, "type": "3 Bed", "price": 14950.0 }
+      ],
+      "highValueAmenities": [
+        "Black/Stainless Appliances",
+        "Fitness Center",
+        "ValletTrash"
+      ],
+      "paidUtilities": [],
+      "geocode": {
+        "Longitude": "-96.803388",
+        "Latitude": "32.816577",
+        "Percision": "",
+        "IsValid": true
+      }
+    },
+    {
+      "listID": 7892483,
+      "order": 0,
+      "propertyID": 818442,
+      "name": "The Alton",
+      "streetAddress": "2929 Oak Lawn Ave",
+      "city": "Dallas",
+      "state": "TX",
+      "pets": true,
+      "washerDry": "FULLSIZE_FURNISHED",
+      "photo": "https://d3d5tet3r0xd5y.cloudfront.net/photos/818442/micros/001.jpeg",
+      "favorite": false,
+      "highestSentCommissions": 126,
+      "onsiteManager": null,
+      "management": null,
+      "proximity": 0.0,
+      "section8": false,
+      "seniorHousing": false,
+      "studentHousting": false,
+      "floorplans": [
+        { "bedrooms": 0, "type": "Eff", "price": 2175.0 },
+        { "bedrooms": 1, "type": "1 Bed", "price": 1899.0 },
+        { "bedrooms": 2, "type": "2 Bed", "price": 2829.0 }
+      ],
+      "highValueAmenities": [
+        "Black/Stainless Appliances",
+        "Wood Floors",
+        "Dog/Walk Park",
+        "Fitness Center"
+      ],
+      "paidUtilities": [],
+      "geocode": {
+        "Longitude": "-96.810242",
+        "Latitude": "32.808474",
+        "Percision": "ROOFTOP",
+        "IsValid": true
+      }
+    },
+    {
+      "listID": 7892483,
+      "order": 0,
+      "propertyID": 291757,
+      "name": "Union House",
+      "streetAddress": "4177 Gazebo St",
+      "city": "Aubrey",
+      "state": "TX",
+      "pets": true,
+      "washerDry": "FULLSIZE_FURNISHED",
+      "photo": "https://d3d5tet3r0xd5y.cloudfront.net/photos/291757/micros/GH.jpg",
+      "favorite": false,
+      "highestSentCommissions": 125,
+      "onsiteManager": null,
+      "management": null,
+      "proximity": 0.0,
+      "section8": false,
+      "seniorHousing": false,
+      "studentHousting": false,
+      "floorplans": [
+        { "bedrooms": 1, "type": "1 Bed", "price": 1394.0 },
+        { "bedrooms": 2, "type": "2 Bed", "price": 2041.0 },
+        { "bedrooms": 3, "type": "3 Bed", "price": 2949.0 }
+      ],
+      "highValueAmenities": [
+        "Black/Stainless Appliances",
+        "Granite Countertops",
+        "Dog/Walk Park",
+        "Jogging Trail",
+        "Fitness Center",
+        "ValletTrash"
+      ],
+      "paidUtilities": [],
+      "geocode": {
+        "Longitude": "-96.923086",
+        "Latitude": "33.221653",
+        "Percision": "ROOFTOP",
+        "IsValid": true
+      }
+    },
+    {
+      "listID": 7892483,
+      "order": 0,
+      "propertyID": 812452,
+      "name": "Prose Frontier",
+      "streetAddress": "4400 Prairie Crossing",
+      "city": "Prosper",
+      "state": "TX",
+      "pets": true,
+      "washerDry": "FULLSIZE_FURNISHED",
+      "photo": "https://d3d5tet3r0xd5y.cloudfront.net/photos/812452/micros/20498.jpg",
+      "favorite": false,
+      "highestSentCommissions": 125,
+      "onsiteManager": null,
+      "management": null,
+      "proximity": 0.0,
+      "section8": false,
+      "seniorHousing": false,
+      "studentHousting": false,
+      "floorplans": [
+        { "bedrooms": 1, "type": "1 Bed", "price": 1387.0 },
+        { "bedrooms": 2, "type": "2 Bed", "price": 1808.0 }
+      ],
+      "highValueAmenities": [
+        "Black/Stainless Appliances",
+        "Wood Floors",
+        "Granite Countertops",
+        "Dog/Walk Park",
+        "Fitness Center"
+      ],
+      "paidUtilities": [],
+      "geocode": {
+        "Longitude": "-96.801393",
+        "Latitude": "33.265606",
+        "Percision": "ROOFTOP",
+        "IsValid": true
+      }
+    },
+    {
+      "listID": 7892483,
+      "order": 0,
+      "propertyID": 810983,
+      "name": "Prose Fossil Creek",
+      "streetAddress": "1350 N Blue Mound Rd",
+      "city": "Saginaw",
+      "state": "TX",
+      "pets": true,
+      "washerDry": "FULLSIZE_FURNISHED",
+      "photo": "https://d3d5tet3r0xd5y.cloudfront.net/photos/810983/micros/1.jpg",
+      "favorite": false,
+      "highestSentCommissions": 125,
+      "onsiteManager": null,
+      "management": null,
+      "proximity": 0.0,
+      "section8": false,
+      "seniorHousing": false,
+      "studentHousting": false,
+      "floorplans": [
+        { "bedrooms": 1, "type": "1 Bed", "price": 1508.0 },
+        { "bedrooms": 2, "type": "2 Bed", "price": 1849.0 }
+      ],
+      "highValueAmenities": [
+        "Black/Stainless Appliances",
+        "Wood Floors",
+        "Granite Countertops",
+        "Fitness Center"
+      ],
+      "paidUtilities": [],
+      "geocode": {
+        "Longitude": "-97.34364",
+        "Latitude": "32.881668",
+        "Percision": "ROOFTOP",
+        "IsValid": true
+      }
+    },
+    {
+      "listID": 7892483,
+      "order": 0,
+      "propertyID": 820086,
+      "name": "The Louise",
+      "streetAddress": "4151 Viridian Village Dr",
+      "city": "Arlington",
+      "state": "TX",
+      "pets": true,
+      "washerDry": "FULLSIZE_FURNISHED",
+      "photo": "https://d3d5tet3r0xd5y.cloudfront.net/photos/820086/micros/1.jpg",
+      "favorite": true,
+      "highestSentCommissions": 125,
+      "onsiteManager": null,
+      "management": null,
+      "proximity": 0.0,
+      "section8": false,
+      "seniorHousing": false,
+      "studentHousting": false,
+      "floorplans": [
+        { "bedrooms": 0, "type": "Eff", "price": 1528.0 },
+        { "bedrooms": 1, "type": "1 Bed", "price": 1690.0 },
+        { "bedrooms": 2, "type": "2 Bed", "price": 2285.0 },
+        { "bedrooms": 3, "type": "3 Bed", "price": 3435.0 }
+      ],
+      "highValueAmenities": [
+        "Black/Stainless Appliances",
+        "Granite Countertops",
+        "Dog/Walk Park",
+        "Jogging Trail",
+        "Fitness Center",
+        "ValletTrash"
+      ],
+      "paidUtilities": [],
+      "geocode": {
+        "Longitude": "-97.095534",
+        "Latitude": "32.799535",
+        "Percision": "RANGE_INTERPOLATED",
+        "IsValid": true
+      }
+    },
+    {
+      "listID": 7892483,
+      "order": 0,
+      "propertyID": 289001,
+      "name": "Presidium Revelstoke",
+      "streetAddress": "9600 Blue Mound Rd",
+      "city": "Fort Worth",
+      "state": "TX",
+      "pets": true,
+      "washerDry": "STACKABLE_FURNISHED",
+      "photo": "https://d3d5tet3r0xd5y.cloudfront.net/photos/289001/micros/a.jpg",
+      "favorite": true,
+      "highestSentCommissions": 125,
+      "onsiteManager": null,
+      "management": null,
+      "proximity": 0.0,
+      "section8": false,
+      "seniorHousing": false,
+      "studentHousting": false,
+      "floorplans": [
+        { "bedrooms": 1, "type": "1 Bed", "price": 1425.0 },
+        { "bedrooms": 2, "type": "2 Bed", "price": 2003.0 },
+        { "bedrooms": 3, "type": "3 Bed", "price": 2670.0 }
+      ],
+      "highValueAmenities": [
+        "Black/Stainless Appliances",
+        "Granite Countertops",
+        "Dog/Walk Park",
+        "Fitness Center",
+        "ValletTrash"
+      ],
+      "paidUtilities": [],
+      "geocode": {
+        "Longitude": "-97.347529",
+        "Latitude": "32.912642",
+        "Percision": "ROOFTOP",
+        "IsValid": true
+      }
+    },
+    {
+      "listID": 7892483,
+      "order": 0,
+      "propertyID": 240254,
+      "name": "Instrata at Legacy West",
+      "streetAddress": "7850 Communications Parkway",
+      "city": "Plano",
+      "state": "TX",
+      "pets": true,
+      "washerDry": "STACKABLE_FURNISHED",
+      "photo": "https://d3d5tet3r0xd5y.cloudfront.net/photos/240254/micros/1 living-room.jpg",
+      "favorite": true,
+      "highestSentCommissions": 125,
+      "onsiteManager": null,
+      "management": null,
+      "proximity": 0.0,
+      "section8": false,
+      "seniorHousing": false,
+      "studentHousting": false,
+      "floorplans": [
+        { "bedrooms": 1, "type": "1 Bed", "price": 2125.0 },
+        { "bedrooms": 2, "type": "2 Bed", "price": 3475.0 }
+      ],
+      "highValueAmenities": ["Black/Stainless Appliances", "Fitness Center"],
+      "paidUtilities": [],
+      "geocode": {
+        "Longitude": "-96.827551",
+        "Latitude": "33.087894",
+        "Percision": "RANGE_INTERPOLATED",
+        "IsValid": true
+      }
+    },
+    {
+      "listID": 7892483,
+      "order": 0,
+      "propertyID": 158495,
+      "name": "Dallas Urby",
+      "streetAddress": "1930 Hi Line Drive",
+      "city": "Dallas",
+      "state": "TX",
+      "pets": true,
+      "washerDry": "FULLSIZE_FURNISHED",
+      "photo": "https://d3d5tet3r0xd5y.cloudfront.net/photos/158495/micros/001 - Dallas-front-URBY-9.6.22.jpg",
+      "favorite": false,
+      "highestSentCommissions": 125,
+      "onsiteManager": null,
+      "management": null,
+      "proximity": 0.0,
+      "section8": false,
+      "seniorHousing": false,
+      "studentHousting": false,
+      "floorplans": [
+        { "bedrooms": 0, "type": "Eff", "price": 1951.0 },
+        { "bedrooms": 1, "type": "1 Bed", "price": 2076.0 },
+        { "bedrooms": 2, "type": "2 Bed", "price": 3178.0 }
+      ],
+      "highValueAmenities": [
+        "Black/Stainless Appliances",
+        "Wood Floors",
+        "Granite Countertops",
+        "Dog/Walk Park",
+        "Fitness Center"
+      ],
+      "paidUtilities": ["Trash", "Water"],
+      "geocode": {
+        "Longitude": "-96.822062",
+        "Latitude": "32.79771",
+        "Percision": "",
+        "IsValid": true
+      }
+    },
+    {
+      "listID": 7892483,
+      "order": 0,
+      "propertyID": 739790,
+      "name": "Jefferson Lumen",
+      "streetAddress": "515 Promenade Pky",
+      "city": "Irving",
+      "state": "TX",
+      "pets": true,
+      "washerDry": "FULLSIZE_FURNISHED",
+      "photo": "https://d3d5tet3r0xd5y.cloudfront.net/photos/739790/micros/1.png",
+      "favorite": false,
+      "highestSentCommissions": 101,
+      "onsiteManager": null,
+      "management": null,
+      "proximity": 0.0,
+      "section8": false,
+      "seniorHousing": false,
+      "studentHousting": false,
+      "floorplans": [
+        { "bedrooms": 0, "type": "Eff", "price": 1369.0 },
+        { "bedrooms": 1, "type": "1 Bed", "price": 1925.0 },
+        { "bedrooms": 2, "type": "2 Bed", "price": 2504.0 },
+        { "bedrooms": 3, "type": "3 Bed", "price": 3582.0 }
+      ],
+      "highValueAmenities": [
+        "Black/Stainless Appliances",
+        "Granite Countertops",
+        "Dog/Walk Park",
+        "Jogging Trail",
+        "Fitness Center"
+      ],
+      "paidUtilities": [],
+      "geocode": {
+        "Longitude": "-96.937683",
+        "Latitude": "32.874643",
+        "Percision": "RANGE_INTERPOLATED",
+        "IsValid": true
+      }
+    },
+    {
+      "listID": 7892483,
+      "order": 0,
+      "propertyID": 188274,
+      "name": "The 23",
+      "streetAddress": "2370 Victory Ave",
+      "city": "Dallas",
+      "state": "TX",
+      "pets": true,
+      "washerDry": "FULLSIZE_FURNISHED",
+      "photo": "https://d3d5tet3r0xd5y.cloudfront.net/photos/188274/micros/23Dallas.jpg",
+      "favorite": false,
+      "highestSentCommissions": 101,
+      "onsiteManager": null,
+      "management": null,
+      "proximity": 0.0,
+      "section8": false,
+      "seniorHousing": false,
+      "studentHousting": false,
+      "floorplans": [
+        { "bedrooms": 0, "type": "Eff", "price": 1750.0 },
+        { "bedrooms": 1, "type": "1 Bed", "price": 1894.0 },
+        { "bedrooms": 2, "type": "2 Bed", "price": 3020.0 }
+      ],
+      "highValueAmenities": [
+        "Black/Stainless Appliances",
+        "Wood Floors",
+        "Granite Countertops",
+        "Fitness Center"
+      ],
+      "paidUtilities": [],
+      "geocode": {
+        "Longitude": "-96.810073",
+        "Latitude": "32.78661",
+        "Percision": "ROOFTOP",
+        "IsValid": true
+      }
+    },
+    {
+      "listID": 7892483,
+      "order": 0,
+      "propertyID": 819578,
+      "name": "Bishop Highline",
+      "streetAddress": "105 S Bishop Ave",
+      "city": "Dallas",
+      "state": "TX",
+      "pets": true,
+      "washerDry": "FULLSIZE_FURNISHED",
+      "photo": "https://d3d5tet3r0xd5y.cloudfront.net/photos/819578/micros/1.jpg",
+      "favorite": false,
+      "highestSentCommissions": 100,
+      "onsiteManager": null,
+      "management": null,
+      "proximity": 0.0,
+      "section8": false,
+      "seniorHousing": false,
+      "studentHousting": false,
+      "floorplans": [
+        { "bedrooms": 0, "type": "Eff", "price": 1468.0 },
+        { "bedrooms": 1, "type": "1 Bed", "price": 1468.0 }
+      ],
+      "highValueAmenities": ["Black/Stainless Appliances", "Dog/Walk Park"],
+      "paidUtilities": [],
+      "geocode": {
+        "Longitude": "-96.82848",
+        "Latitude": "32.744824",
+        "Percision": "ROOFTOP",
+        "IsValid": true
+      }
+    },
+    {
+      "listID": 7892483,
+      "order": 0,
+      "propertyID": 249560,
+      "name": "Luxia River East",
+      "streetAddress": "336 Oakhurst Scenic Dr.",
+      "city": "Fort Worth",
+      "state": "TX",
+      "pets": true,
+      "washerDry": "FULLSIZE_FURNISHED",
+      "photo": "https://d3d5tet3r0xd5y.cloudfront.net/photos/249560/micros/JRE.jpg",
+      "favorite": false,
+      "highestSentCommissions": 100,
+      "onsiteManager": null,
+      "management": null,
+      "proximity": 0.0,
+      "section8": false,
+      "seniorHousing": false,
+      "studentHousting": false,
+      "floorplans": [
+        { "bedrooms": 0, "type": "Eff", "price": 1420.0 },
+        { "bedrooms": 1, "type": "1 Bed", "price": 1141.0 },
+        { "bedrooms": 2, "type": "2 Bed", "price": 1610.0 },
+        { "bedrooms": 3, "type": "3 Bed", "price": 2541.0 }
+      ],
+      "highValueAmenities": [
+        "Black/Stainless Appliances",
+        "Wood Floors",
+        "Granite Countertops",
+        "Dog/Walk Park",
+        "Jogging Trail",
+        "Fitness Center",
+        "ValletTrash"
+      ],
+      "paidUtilities": [],
+      "geocode": {
+        "Longitude": "-97.31069",
+        "Latitude": "32.769826",
+        "Percision": "ROOFTOP",
+        "IsValid": true
+      }
+    },
+    {
+      "listID": 7892483,
+      "order": 0,
+      "propertyID": 76892,
+      "name": "Ambrose",
+      "streetAddress": "2901 Indiana Street",
+      "city": "Dallas",
+      "state": "TX",
+      "pets": true,
+      "washerDry": "STACKABLE_FURNISHED",
+      "photo": "https://d3d5tet3r0xd5y.cloudfront.net/photos/76892/micros/142287028.jpg",
+      "favorite": false,
+      "highestSentCommissions": 100,
+      "onsiteManager": null,
+      "management": null,
+      "proximity": 0.0,
+      "section8": false,
+      "seniorHousing": false,
+      "studentHousting": false,
+      "floorplans": [
+        { "bedrooms": 1, "type": "1 Bed", "price": 1500.0 },
+        { "bedrooms": 2, "type": "2 Bed", "price": 2149.0 }
+      ],
+      "highValueAmenities": [
+        "Black/Stainless Appliances",
+        "Wood Floors",
+        "Granite Countertops",
+        "Stained Concerete Floors",
+        "Fitness Center"
+      ],
+      "paidUtilities": [],
+      "geocode": {
+        "Longitude": "-96.78144",
+        "Latitude": "32.786167",
+        "Percision": "ROOFTOP",
+        "IsValid": true
+      }
+    },
+    {
+      "listID": 7892483,
+      "order": 0,
+      "propertyID": 277820,
+      "name": "The Lakes at Grand Prairie",
+      "streetAddress": "3013 Doryn Dr SEC",
+      "city": "Grand Prairie",
+      "state": "TX",
+      "pets": true,
+      "washerDry": "FULLSIZE_FURNISHED",
+      "photo": "",
+      "favorite": false,
+      "highestSentCommissions": 75,
+      "onsiteManager": null,
+      "management": null,
+      "proximity": 0.0,
+      "section8": false,
+      "seniorHousing": false,
+      "studentHousting": false,
+      "floorplans": [
+        { "bedrooms": 1, "type": "1 Bed", "price": 1414.0 },
+        { "bedrooms": 2, "type": "2 Bed", "price": 1920.0 }
+      ],
+      "highValueAmenities": [
+        "Black/Stainless Appliances",
+        "Granite Countertops",
+        "Dog/Walk Park",
+        "Fitness Center"
+      ],
+      "paidUtilities": [],
+      "geocode": {
+        "Longitude": "-97.061998",
+        "Latitude": "32.639296",
+        "Percision": "ROOFTOP",
+        "IsValid": true
+      }
+    },
+    {
+      "listID": 7892483,
+      "order": 0,
+      "propertyID": 114236,
+      "name": "The Kelton at Clearfork",
+      "streetAddress": "4945 Gage Ave",
+      "city": "Fort Worth",
+      "state": "TX",
+      "pets": true,
+      "washerDry": "FULLSIZE_FURNISHED",
+      "photo": "https://d3d5tet3r0xd5y.cloudfront.net/photos/114236/micros/kel1_39A.jpg",
+      "favorite": true,
+      "highestSentCommissions": 75,
+      "onsiteManager": null,
+      "management": null,
+      "proximity": 0.0,
+      "section8": false,
+      "seniorHousing": false,
+      "studentHousting": false,
+      "floorplans": [
+        { "bedrooms": 0, "type": "Eff", "price": 1582.0 },
+        { "bedrooms": 1, "type": "1 Bed", "price": 1575.0 },
+        { "bedrooms": 2, "type": "2 Bed", "price": 2001.0 },
+        { "bedrooms": 3, "type": "3 Bed", "price": 2676.0 }
+      ],
+      "highValueAmenities": [
+        "Black/Stainless Appliances",
+        "Wood Floors",
+        "Granite Countertops",
+        "Dog/Walk Park",
+        "Jogging Trail",
+        "Fitness Center",
+        "ValletTrash"
+      ],
+      "paidUtilities": [],
+      "geocode": {
+        "Longitude": "-97.399265",
+        "Latitude": "32.709094",
+        "Percision": "ROOFTOP",
+        "IsValid": true
+      }
+    },
+    {
+      "listID": 7892483,
+      "order": 0,
+      "propertyID": 231708,
+      "name": "Elora Flower Mound",
+      "streetAddress": "2601 Lakeside Parkway",
+      "city": "Flower Mound",
+      "state": "TX",
+      "pets": true,
+      "washerDry": "STACKABLE_FURNISHED",
+      "photo": "https://d3d5tet3r0xd5y.cloudfront.net/photos/231708/micros/02.png",
+      "favorite": true,
+      "highestSentCommissions": 50,
+      "onsiteManager": null,
+      "management": null,
+      "proximity": 0.0,
+      "section8": false,
+      "seniorHousing": false,
+      "studentHousting": false,
+      "floorplans": [
+        { "bedrooms": 0, "type": "Eff", "price": 1564.0 },
+        { "bedrooms": 1, "type": "1 Bed", "price": 1681.0 },
+        { "bedrooms": 2, "type": "2 Bed", "price": 2416.0 },
+        { "bedrooms": 3, "type": "3 Bed", "price": 3433.0 }
+      ],
+      "highValueAmenities": [
+        "Black/Stainless Appliances",
+        "Wood Floors",
+        "Granite Countertops",
+        "Dog/Walk Park",
+        "Jogging Trail",
+        "Fitness Center",
+        "Golf",
+        "ValletTrash"
+      ],
+      "paidUtilities": ["Water"],
+      "geocode": {
+        "Longitude": "-97.067158",
+        "Latitude": "32.992858",
+        "Percision": "ROOFTOP",
+        "IsValid": true
+      }
+    },
+    {
+      "listID": 7892483,
+      "order": 0,
+      "propertyID": 289401,
+      "name": "Reveal Lake Ridge",
+      "streetAddress": "7402 Lake Ridge Pkwy",
+      "city": "Grand Prairie",
+      "state": "TX",
+      "pets": true,
+      "washerDry": "FULLSIZE_CONNECTIONS",
+      "photo": "https://d3d5tet3r0xd5y.cloudfront.net/photos/289401/micros/1.jpg",
+      "favorite": true,
+      "highestSentCommissions": 50,
+      "onsiteManager": null,
+      "management": null,
+      "proximity": 0.0,
+      "section8": false,
+      "seniorHousing": false,
+      "studentHousting": false,
+      "floorplans": [
+        { "bedrooms": 1, "type": "1 Bed", "price": 1430.0 },
+        { "bedrooms": 2, "type": "2 Bed", "price": 1797.0 },
+        { "bedrooms": 3, "type": "3 Bed", "price": 2532.0 }
+      ],
+      "highValueAmenities": [
+        "Black/Stainless Appliances",
+        "Wood Floors",
+        "Dog/Walk Park",
+        "Fitness Center",
+        "ValletTrash"
+      ],
+      "paidUtilities": [],
+      "geocode": {
+        "Longitude": "-97.035289",
+        "Latitude": "32.593958",
+        "Percision": "ROOFTOP",
+        "IsValid": true
+      }
+    },
+    {
+      "listID": 7892483,
+      "order": 0,
+      "propertyID": 75202,
+      "name": "The Lana",
+      "streetAddress": "14332 Montfort",
+      "city": "Dallas",
+      "state": "TX",
+      "pets": true,
+      "washerDry": "FULLSIZE_CONNECTIONS",
+      "photo": "https://d3d5tet3r0xd5y.cloudfront.net/photos/75202/micros/Lana.jpg",
+      "favorite": false,
+      "highestSentCommissions": 50,
+      "onsiteManager": null,
+      "management": null,
+      "proximity": 0.0,
+      "section8": false,
+      "seniorHousing": false,
+      "studentHousting": false,
+      "floorplans": [
+        { "bedrooms": 1, "type": "1 Bed", "price": 1305.0 },
+        { "bedrooms": 2, "type": "2 Bed", "price": 1670.0 },
+        { "bedrooms": 3, "type": "3 Bed", "price": 2220.0 }
+      ],
+      "highValueAmenities": [
+        "Black/Stainless Appliances",
+        "Wood Floors",
+        "Granite Countertops",
+        "Dog/Walk Park",
+        "Jogging Trail",
+        "Fitness Center",
+        "Volleyball",
+        "ValletTrash"
+      ],
+      "paidUtilities": [],
+      "geocode": {
+        "Longitude": "-96.811655",
+        "Latitude": "32.944738",
+        "Percision": "GEOMETRIC_CENTER",
+        "IsValid": true
+      }
+    },
+    {
+      "listID": 7892483,
+      "order": 0,
+      "propertyID": 737661,
+      "name": "Cypress Creek at Hazelwood Street",
+      "streetAddress": "899 E Hazelwood St",
+      "city": "Princeton",
+      "state": "TX",
+      "pets": false,
+      "washerDry": "FULLSIZE_CONNECTIONS",
+      "photo": "https://d3d5tet3r0xd5y.cloudfront.net/photos/737661/micros/a1.jpg",
+      "favorite": false,
+      "highestSentCommissions": 0,
+      "onsiteManager": null,
+      "management": null,
+      "proximity": 0.0,
+      "section8": false,
+      "seniorHousing": false,
+      "studentHousting": false,
+      "floorplans": [
+        { "bedrooms": 1, "type": "1 Bed", "price": 1384.0 },
+        { "bedrooms": 2, "type": "2 Bed", "price": 1045.0 },
+        { "bedrooms": 3, "type": "3 Bed", "price": 2114.0 }
+      ],
+      "highValueAmenities": [
+        "Black/Stainless Appliances",
+        "Granite Countertops",
+        "Fitness Center",
+        "Basketball",
+        "Volleyball"
+      ],
+      "paidUtilities": ["Trash", "Water"],
+      "geocode": {
+        "Longitude": "-96.489797",
+        "Latitude": "33.170928",
+        "Percision": "RANGE_INTERPOLATED",
+        "IsValid": true
+      }
+    }
+  ],
+  "showContactInfo": true,
+  "role": "LOCATOR",
+  "title": "",
+  "body": ""
+}

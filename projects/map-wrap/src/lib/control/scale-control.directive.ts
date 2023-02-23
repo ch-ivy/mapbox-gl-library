@@ -11,7 +11,7 @@ import { MapService } from '../map/map.service';
 import { ControlComponent } from './control.component';
 
 @Directive({
-  selector: '[mglScale]',
+  selector: '[mapScale]',
 })
 export class ScaleControlDirective implements AfterContentInit, OnChanges {
   /* Init inputs */

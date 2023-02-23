@@ -15,39 +15,39 @@ import { fromEvent, merge, Subscription } from 'rxjs';
 import { filter, startWith, switchMap } from 'rxjs/operators';
 import { MapService } from '../map/map.service';
 
-@Directive({ selector: 'ng-template[mglPoint]' })
+@Directive({ selector: 'ng-template[mapPoint]' })
 export class PointDirective {}
 
-@Directive({ selector: 'ng-template[mglClusterPoint]' })
+@Directive({ selector: 'ng-template[mapClusterPoint]' })
 export class ClusterPointDirective {}
 
 let uniqId = 0;
 
 @Component({
-  selector: 'mgl-markers-for-clusters',
+  selector: 'map-markers-for-clusters',
   template: `
-    <mgl-layer
+    <map-layer
       [id]="layerId"
       [source]="source"
       type="circle"
       [paint]="{ 'circle-radius': 0 }"
-    ></mgl-layer>
+    ></map-layer>
     <ng-container
       *ngFor="let feature of clusterPoints; trackBy: trackByClusterPoint"
     >
       <ng-container *ngIf="feature.properties!['cluster']">
-        <mgl-marker [feature]="$any(feature)">
+        <map-marker [feature]="$any(feature)">
           <ng-container
             *ngTemplateOutlet="clusterPointTpl; context: { $implicit: feature }"
           ></ng-container>
-        </mgl-marker>
+        </map-marker>
       </ng-container>
       <ng-container *ngIf="!feature.properties!['cluster']">
-        <mgl-marker [feature]="$any(feature)">
+        <map-marker [feature]="$any(feature)">
           <ng-container
             *ngTemplateOutlet="pointTpl!; context: { $implicit: feature }"
           ></ng-container>
-        </mgl-marker>
+        </map-marker>
       </ng-container>
     </ng-container>
   `,
@@ -66,7 +66,7 @@ export class MarkersForClustersComponent
   clusterPointTpl!: TemplateRef<unknown>;
 
   clusterPoints!: MapboxGeoJSONFeature[]; // Incorrect typings
-  layerId = `mgl-markers-for-clusters-${uniqId++}`;
+  layerId = `map-markers-for-clusters-${uniqId++}`;
 
   private sub = new Subscription();
 

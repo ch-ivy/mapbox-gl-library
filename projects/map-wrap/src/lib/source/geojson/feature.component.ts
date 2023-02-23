@@ -10,7 +10,7 @@ import {
 import { GeoJSONSourceComponent } from './geojson-source.component';
 
 @Component({
-  selector: 'mgl-feature',
+  selector: 'map-feature',
   template: '',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })

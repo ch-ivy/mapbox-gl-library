@@ -12,11 +12,11 @@ import { MapService, SetupMap } from './map.service';
 
 describe('MapComponent', () => {
   class MapServiceSpy {
-    setup = jest.fn();
-    updateMinZoom = jest.fn();
-    updateMaxPitch = jest.fn();
-    updateMinPitch = jest.fn();
-    destroyMap = jest.fn();
+    setup = null;
+    updateMinZoom = null;
+    updateMaxPitch = null;
+    updateMinPitch = null;
+    destroyMap = null;
     mapCreated$ = new ReplaySubject(1);
   }
 

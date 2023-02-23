@@ -13,7 +13,7 @@ import { filter } from 'rxjs/operators';
 import { MapService } from '../map/map.service';
 
 @Component({
-  selector: 'mgl-raster-dem-source',
+  selector: 'map-raster-dem-source',
   template: '',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })

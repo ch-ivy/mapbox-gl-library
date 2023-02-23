@@ -159,7 +159,7 @@ export interface LayerEvents {
  * to avoid deprecation angular version < 11.0.0 we declared own Coordinates, Position interface
  */
 
-export interface NgxMapboxGeolocationCoordinates {
+export interface MapWrapGeolocationCoordinates {
   readonly accuracy: number;
   readonly altitude: number | null;
   readonly altitudeAccuracy: number | null;
@@ -170,7 +170,7 @@ export interface NgxMapboxGeolocationCoordinates {
 }
 
 export interface Position {
-  coords: NgxMapboxGeolocationCoordinates;
+  coords: MapWrapGeolocationCoordinates;
   target: GeolocateControl;
   timestamp: number;
   type: string;

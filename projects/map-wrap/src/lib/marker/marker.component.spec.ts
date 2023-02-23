@@ -7,9 +7,9 @@ import { MarkerComponent } from './marker.component';
 
 @Component({
   template: `
-    <mgl-marker [offset]="offset" [lngLat]="lngLat" [className]="className">
+    <map-marker [offset]="offset" [lngLat]="lngLat" [className]="className">
       ...
-    </mgl-marker>
+    </map-marker>
   `,
 })
 class MarkerTestComponent {
@@ -63,7 +63,7 @@ describe('MarkerComponent', () => {
       component.className = 'my-class1 my-class2';
       fixture.detectChanges();
       const classes = (fixture.nativeElement as HTMLElement).querySelector(
-        'mgl-marker > div'
+        'map-marker > div'
       )!.classList;
       expect(classes).toContain('my-class1');
       expect(classes).toContain('my-class2');

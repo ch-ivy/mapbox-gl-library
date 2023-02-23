@@ -17,7 +17,7 @@ import { MapService } from '../map/map.service';
 import { MarkerComponent } from '../marker/marker.component';
 
 @Component({
-  selector: 'mgl-popup',
+  selector: 'map-popup',
   template: '<div #content><ng-content></ng-content></div>',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
@@ -159,7 +159,7 @@ export class PopupComponent
         this.mapService.addPopupToMarker(this.marker.markerInstance, popup);
       } else {
         throw new Error(
-          'mgl-popup need either lngLat/marker/feature to be set'
+          'map-popup need either lngLat/marker/feature to be set'
         );
       }
     });

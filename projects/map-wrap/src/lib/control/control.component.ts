@@ -27,7 +27,7 @@ export class CustomControl implements IControl {
 }
 
 @Component({
-  selector: 'mgl-control',
+  selector: 'map-control',
   template:
     '<div class="mapboxgl-ctrl" #content><ng-content></ng-content></div>',
   changeDetection: ChangeDetectionStrategy.OnPush,

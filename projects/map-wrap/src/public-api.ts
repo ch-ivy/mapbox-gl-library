@@ -2,7 +2,7 @@
  * Public API Surface of map-wrap
  */
 
-// Expose NgxMapboxGlModule and GeocoderControlDirective provided injection tokens
+// Expose MapWrapModule and GeocoderControlDirective provided injection tokens
 export * from './lib/control/attribution-control.directive';
 // Expose control component to allow custom directives
 export * from './lib/control/control.component';

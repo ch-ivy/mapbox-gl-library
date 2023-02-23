@@ -1,1 +1,32 @@
+.map-container {
+  position: relative;
+  height: 700px;
 
+  map-wrap {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+  }
+}
+
+.img-icon {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  cursor: pointer;
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+}
+
+.marker {
+  width: 50px;
+}
+
+.selected {
+  border-color: #0a53be !important;
+}

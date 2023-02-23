@@ -12,7 +12,7 @@ import { Subscription } from 'rxjs';
 import { MapService } from '../map/map.service';
 
 @Component({
-  selector: 'mgl-image-source',
+  selector: 'map-image-source',
   template: '',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })

@@ -17,11 +17,11 @@ import { MapService } from '../map/map.service';
 import { FeatureComponent } from '../source/geojson/feature.component';
 
 @Directive({
-  selector: '[mglDraggable]',
+  selector: '[mapDraggable]',
 })
 export class DraggableDirective implements OnInit, OnDestroy {
   // eslint-disable-next-line @angular-eslint/no-input-rename
-  @Input('mglDraggable') layer?: LayerComponent;
+  @Input('mapDraggable') layer?: LayerComponent;
 
   @Output() featureDragStart = new EventEmitter<MapMouseEvent>();
   @Output() featureDragEnd = new EventEmitter<MapMouseEvent>();
@@ -59,11 +59,11 @@ export class DraggableDirective implements OnInit, OnDestroy {
         this.featureComponent
       );
       if (this.featureComponent.geometry.type !== 'Point') {
-        throw new Error('mglDraggable only support point feature');
+        throw new Error('mapDraggable only support point feature');
       }
     } else {
       throw new Error(
-        'mglDraggable can only be used on Feature (with a layer as input) or Marker'
+        'mapDraggable can only be used on Feature (with a layer as input) or Marker'
       );
     }
 

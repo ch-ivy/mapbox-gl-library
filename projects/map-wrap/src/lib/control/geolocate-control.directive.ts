@@ -12,7 +12,7 @@ import { Position } from '../map/map.types';
 import { ControlComponent } from './control.component';
 
 @Directive({
-  selector: '[mglGeolocate]',
+  selector: '[mapGeolocate]',
 })
 export class GeolocateControlDirective implements AfterContentInit {
   /* Init inputs */

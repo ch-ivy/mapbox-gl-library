@@ -17,7 +17,7 @@ import { LngLatLike, Marker, MarkerOptions } from 'mapbox-gl';
 import { MapService } from '../map/map.service';
 
 @Component({
-  selector: 'mgl-marker',
+  selector: 'map-marker',
   template: '<div [class]="className" #content><ng-content></ng-content></div>',
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,

@@ -42,7 +42,7 @@ import { MapEvent } from './map.types';
         display: block;
       }
       div {
-        height: 100%;
+        min-height: 100%;
         width: 100%;
       }
     `,
